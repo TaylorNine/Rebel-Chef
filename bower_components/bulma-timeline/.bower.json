@@ -1,0 +1,34 @@
+{
+  "name": "bulma-timeline",
+  "description": "Display a vertical timeline, in different colors, sizes, and states",
+  "main": "timeline.sass",
+  "version": "2.0.1",
+  "authors": [
+    "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Bulma",
+    "bulma",
+    "bulma.io",
+    "extensions",
+    "timeline"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-timeline",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "2.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.1",
+    "commit": "9d00f46ef54b89469ebb3f2e4158b197970bbc18"
+  },
+  "_source": "https://github.com/Wikiki/bulma-timeline.git",
+  "_target": "^2.0.1",
+  "_originalSource": "bulma-timeline"
+}

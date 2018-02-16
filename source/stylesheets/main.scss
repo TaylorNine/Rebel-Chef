@@ -1,0 +1,17 @@
+//-----------------------------------
+// REBEL CHEF MAIN STYLE GUIDE
+// VERSION 1.0.0
+//-----------------------------------
+
+// 01 DEFINE CUSTOM VARIABLES, MIXINS, FUNCTIONS 
+// 02 CUSTOMIZE FRAMEWORK WITH CUSTOM PIECES
+// 03 ADD ADDITIONAL LAYOUTS TO VENDOR/BULMA/LAYOUT AS NEEDED
+// 04 COMMENT OUT UN-NEEDED STYLES IN _ALL PARTIALS 
+
+
+
+// BULMA FRAMEWORK
+@import "vendor/bulma/bulma";
+
+// BULMA EXTENSIONS
+@import "vendor/bulma/extensions/carousel";

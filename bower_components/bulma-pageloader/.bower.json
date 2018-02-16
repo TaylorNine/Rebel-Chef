@@ -1,0 +1,33 @@
+{
+  "name": "bulma-pageloader",
+  "description": "Display a page-loader to inform user that content is loading, in different colors.",
+  "main": "pageloader.sass",
+  "version": "1.0.0",
+  "authors": [
+    "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Bulma",
+    "bulma",
+    "bulma.io",
+    "extensions"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-pageloader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "23d8ac20364091737d96b5d1b160187bc7f9ef69"
+  },
+  "_source": "https://github.com/Wikiki/bulma-pageloader.git",
+  "_target": "^1.0.0",
+  "_originalSource": "bulma-pageloader"
+}

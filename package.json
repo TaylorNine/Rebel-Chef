@@ -1,0 +1,25 @@
+{
+  "name": "rebel-chef-static",
+  "version": "2.0.0",
+  "description": "The non-CMS version of the Rebel Chef Site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rebel",
+    "chef",
+    "restaurant",
+    "responsive",
+    "bulma"
+  ],
+  "author": "Taylor Fedt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

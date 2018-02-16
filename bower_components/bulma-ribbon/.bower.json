@@ -1,0 +1,33 @@
+{
+  "name": "bulma-ribbon",
+  "description": "Display a ribbon on bulma element",
+  "main": "ribbon.sass",
+  "version": "1.0.2",
+  "authors": [
+    "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Bulma",
+    "bulma",
+    "bulma.io",
+    "extensions"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-ribbon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.2",
+    "commit": "294878542d616017c002061c229a3c95e73672af"
+  },
+  "_source": "https://github.com/Wikiki/bulma-ribbon.git",
+  "_target": "^1.0.1",
+  "_originalSource": "bulma-ribbon"
+}

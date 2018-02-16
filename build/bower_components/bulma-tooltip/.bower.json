@@ -1,0 +1,34 @@
+{
+  "name": "bulma-tooltip",
+  "description": "Display a tooltip attached to any kind of element, in different position.",
+  "version": "1.0.1",
+  "main": "tooltip.sass",
+  "authors": [
+    "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Bulma",
+    "bulma",
+    "bulma.io",
+    "extensions",
+    "tooltip"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-tooltip",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "e00ec57c1e34be85a04d71be8a9aa3ff0f134cbc"
+  },
+  "_source": "https://github.com/Wikiki/bulma-tooltip.git",
+  "_target": "^1.0.1",
+  "_originalSource": "bulma-tooltip"
+}

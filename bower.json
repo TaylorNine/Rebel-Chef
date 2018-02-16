@@ -1,0 +1,47 @@
+{
+  "name": "my-new-project",
+  "authors": [
+    "John Doe <john@doe.com> (http://johndoe.com)"
+  ],
+  "description": "CodeKit automatically generated this file. You should customize it according to: https://github.com/bower/spec/blob/master/json.md",
+  "main": [
+    "index.html",
+    "main.js"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "none"
+  ],
+  "license": "MIT",
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "bulma-extensions": "^1.0.1",
+    "bulma-timeline": "^2.0.1",
+    "bulma-calendar": "^1.0.3",
+    "bulma-pageloader": "^1.0.0",
+    "bulma-ribbon": "^1.0.1",
+    "bulma-slider": "^1.0.1",
+    "bulma-divider": "^1.0.1",
+    "bulma-carousel": "^1.0.4",
+    "bulma-checkradio": "^1.0.1",
+    "page": "page.js#^1.8.3"
+  }
+}

@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+	head
+	title Rebel Chef
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width initial-scale=1")
+	meta(name="description" content="Experience the food revolution at Rebel Chef in Farmington, Minnesota.")
+	// JAVASCRIPT
+	script(src="../javascripts/vendor/jquery-3.3.1-min.js")
+	script(src="../bower_components/bulma-carousel/dist/bulma-carousel.min.js")
+	// FONT STYLESHEETS: ICONS/MAVEN/FRANKLIN
+	link(rel="stylesheet" href="../stylesheets/vendor/ionicons-min.css")
+	link(href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet")
+	link(rel="stylesheet" href="https://use.typekit.net/wtl3nvt.css")
+	// ANIMATION STYLES/CAROUSEL/BULMA/CUSTOM STYLES
+	link(rel="stylesheet" href="../bower_components/animate.css/animate.min.css")
+	link(rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css")
+	link(rel="stylesheet" href="../stylesheets/main.css")
+body
+	block navigation
+	include ../_components/navbar.pug
+
+	block content
+
+	block footer
+	include ../_components/footer.pug
+
+	block scripts
+		script(type="text/javascript" src="../javascripts/vendor/zenscroll-min.js")
