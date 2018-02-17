@@ -5,14 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width initial-scale=1">
   <meta name="description" content="Experience the food revolution at Rebel Chef in Farmington, Minnesota.">
-  <!-- JAVASCRIPT-->
   <script src="../javascripts/vendor/jquery-3.3.1-min.js"></script>
   <script src="../bower_components/bulma-carousel/dist/bulma-carousel.min.js"></script>
-  <!-- FONT STYLESHEETS: ICONS/MAVEN/FRANKLIN-->
   <link rel="stylesheet" href="../stylesheets/vendor/ionicons-min.css">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/wtl3nvt.css">
-  <!-- ANIMATION STYLES/CAROUSEL/BULMA/CUSTOM STYLES-->
   <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css">
   <link rel="stylesheet" href="../stylesheets/main.css">
@@ -33,21 +30,22 @@
     </div>
   </div>
   <!-- VALUES-->
-  <section class="is-medium">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-one-third"><i class="ion-android-globe is-size-1"></i>
-          <h2 class="is-size-4 has-text-centered">Global Inspiration</h2>
-          <p class="has-text-centered">Food inspired by dishes from around the globe.</p>
-        </div>
-        <div class="column"><i class="ion-android-sync is-size-1"></i>
-          <h2 class="is-size-4 has-text-centered">Waste Not, Want Not</h2>
-          <p class="has-text-centered">Committed to bettering our community and our future.</p>
-        </div>
-        <div class="column"><i class="ion-android-hangout is-size-1"></i>
-          <h2 class="is-size-4 has-text-centered">Only At Rebel Chef</h2>
-          <p class="has-text-centered">Follow us on social media to find out about special events and offers.</p>
-        </div>
+  <section class="is-medium values">
+    <div class="columns is-centered is-gapless">
+      <div class="column global">
+        <p class="has-text-centered"> <i class="ion-android-globe is-size-1"></i></p>
+        <h2 class="is-size-4 has-text-centered"> GLOBAL INSPIRATION</h2>
+        <p class="has-text-centered"> Food inspired by dishes from around the globe.</p>
+      </div>
+      <div class="column community">
+        <p class="has-text-centered"> <i class="ion-android-sync is-size-1"></i></p>
+        <h2 class="is-size-4 has-text-centered"> WASTE NOT, WANT NOT</h2>
+        <p class="has-text-centered"> Committed to bettering our community and our future.</p>
+      </div>
+      <div class="column social">
+        <p class="has-text-centered"> <i class="ion-android-hangout is-size-1"></i></p>
+        <h2 class="is-size-4 has-text-centered"> ONLY AT REBEL CHEF</h2>
+        <p class="has-text-centered"> Follow us on social media to find out about special events and offers.</p>
       </div>
     </div>
   </section>
@@ -56,7 +54,7 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-8">
-          <h3 class="title has-text-weight-light is-uppercase has-text-centered">WHAT DRIVES US</h3>
+          <h1 class="has-text-centered">WHAT DRIVES US</h1>
           <p>Let's face it, franchise establishments tend not to be where the most unique dishes are born. We locally source our ingredients, firmly believing in the mantra <em>you get out what you put in.</em></p><br>
           <p>We invite you to try what the Rebel Chef coined as <em>International Fast Fusion,</em> all your favorites from around the globe, fused with fresh, local and sustainable ingredients. We created something truly special for the Farmington, Minnesota area.</p><br>
           <div class="columns is-centered">
@@ -69,55 +67,95 @@
     </div>
   </section>
   <!-- MENU-->
-  <section class="menu">
+  <section class="is-medium menu">
     <div class="container">
       <h3 class="title has-text-weight-light is-uppercase has-text-centered">Cocktails &amp; Beers</h3>
       <p class="subtitle is-size-6 has-text-centered">We worked with the best mixologists and the best local breweries to bring you something truly unique.</p>
       <div class="tabs is-centered">
-        <ul>
-          <li class="is-active"> <a>Drinks</a></li>
-          <li> <a>Appetizers</a></li>
-          <li><a>Small Plates</a></li>
-          <li><a>Entrees</a></li>
-          <li><a>Desserts</a></li>
+        <ul class="menu-tabs">
+          <li data-tab="tab-1"><a>Drinks</a></li>
+          <li data-tab="tab-2"> <a>Appetizers</a></li>
+          <li data-tab="tab-3"> <a>Small Plates</a></li>
+          <li data-tab="tab-4"> <a>Entrees</a></li>
+          <li data-tab="tab-5"> <a>Desserts</a></li>
         </ul>
-      </div>
-      <div class="columns"></div>
-      <div class="column is-6">
-        <div class="columns"></div>
-        <div class="column is-2"><i class="ion-wineglass"></i></div>
-        <div class="column is-10">
-          <p class="title has-text-weight-bold is-size-4">Old Fashioned</p>
-          <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-        </div>
-      </div>
-      <div class="column is-6">
-        <div class="columns"></div>
-        <div class="column is-2"><i class="ion-wineglass"></i></div>
-        <div class="column is-10">
-          <p class="title has-text-weight-bold is-size-4">Vodka Tonic</p>
-          <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-        </div>
-      </div>
-      <div class="columns"></div>
-      <div class="column is-6">
-        <div class="columns"></div>
-        <div class="column is-2"><i class="ion-wineglass"></i></div>
-        <div class="column is-10">
-          <p class="title has-text-weight-bold is-size-4">Gin &amp; Tonic</p>
-          <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-        </div>
-      </div>
-      <div class="column is-6">
-        <div class="columns"></div>
-        <div class="column is-2"><i class="ion-wineglass"></i></div>
-        <div class="column is-10">
-          <p class="title has-text-weight-bold is-size-4">Manhattan</p>
-          <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-        </div>
       </div>
     </div>
   </section>
+  <div class="section">
+    <div class="container">
+      <div class="tab-content is-active" id="tab-1">
+        <div class="columns">
+          <div class="column is-half"><i class="ion-wineglass is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Old Fashioned</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
+          </div>
+          <div class="column is-half"><i class="ion-wineglass is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Old Fashioned</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tab-2">
+        <div class="columns">
+          <div class="column is-half"><i class="ion-flag is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Appetizer Number 1</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The first appetizer, I don't know maybe some wings?</p>
+          </div>
+          <div class="column is-half"><i class="ion-flag is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Appetizer Number 1</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The first appetizer, I don't know maybe some wings?</p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half"><i class="ion-flag is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Appetizer Number 1</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The first appetizer, I don't know maybe some wings?</p>
+          </div>
+          <div class="column is-half"><i class="ion-flag is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Appetizer Number 1</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The first appetizer, I don't know maybe some wings?</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tab-3">
+        <div class="columns">
+          <div class="column is-half"><i class="ion-fork is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Small Plate 1</p>
+            <p class="subtitle has-text-weight-normal is-size-6">A signature small plate offered by Rebel Chef.</p>
+          </div>
+          <div class="column is-half"><i class="ion-fork is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Small Plate 2</p>
+            <p class="subtitle has-text-weight-normal is-size-6">A signature small plate offered by Rebel Chef.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tab-4">
+        <div class="columns">
+          <div class="column is-half"><i class="ion-android-restaurant is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Entree Number One</p>
+            <p class="subtitle has-text-weight-normal is-size-6">Description of entree number one.</p>
+          </div>
+          <div class="column is-half"><i class="ion-android-restaurant is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Entree Number Two</p>
+            <p class="subtitle has-text-weight-normal is-size-6">Description of entree number two.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tab-5">
+        <div class="columns">
+          <div class="column is-half"><i class="ion-icecream is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Old Fashioned</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
+          </div>
+          <div class="column is-half"><i class="ion-icecream is-size-3"></i>
+            <p class="title has-text-weight-bold is-size-4">Old Fashioned</p>
+            <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <div class="section is-small">
       <div class="columns">
@@ -153,4 +191,5 @@
     </div>
   </footer>
   <script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
 </body>

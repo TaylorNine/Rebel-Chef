@@ -3,52 +3,80 @@
 //- TO DO: IF STATEMENT: The UI is going to be a slider/paginator
 
 block menu
-	section.menu
+	section.is-medium.menu
 		.container
 			h3.title.has-text-weight-light.is-uppercase.has-text-centered Cocktails &amp; Beers
 			p.subtitle.is-size-6.has-text-centered We worked with the best mixologists and the best local breweries to bring you something truly unique.
-			//- TABS FOR VARIOUS PORTIONS OF THE MENU
 			.tabs.is-centered
-				ul
-					li.is-active 
+				ul.menu-tabs
+					li(data-tab="tab-1")
 						a Drinks
-					li 
+					li(data-tab="tab-2") 
 						a Appetizers
-					li
+					li(data-tab="tab-3") 
 						a Small Plates
-					li
+					li(data-tab="tab-4") 
 						a Entrees
-					li
+					li(data-tab="tab-5") 
 						a Desserts
-			.columns
-			.column.is-6
+	.section
+		.container
+			#tab-1.tab-content.is-active
 				.columns
-				.column.is-2
-					i.ion-wineglass
-				.column.is-10
-					p.title.has-text-weight-bold.is-size-4 Old Fashioned
-					p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			.column.is-6
+					.column.is-half
+						i.ion-wineglass.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+					.column.is-half
+						i.ion-wineglass.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+			#tab-2.tab-content
 				.columns
-				.column.is-2
-					i.ion-wineglass
-				.column.is-10
-					p.title.has-text-weight-bold.is-size-4 Vodka Tonic
-					p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			.columns
-			.column.is-6
+					.column.is-half
+						i.ion-flag.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
+						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
+					.column.is-half
+						i.ion-flag.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
+						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
 				.columns
-				.column.is-2
-					i.ion-wineglass
-				.column.is-10
-					p.title.has-text-weight-bold.is-size-4 Gin &amp; Tonic
-					p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			.column.is-6
+					.column.is-half
+						i.ion-flag.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
+						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
+					.column.is-half
+						i.ion-flag.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
+						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
+			#tab-3.tab-content
 				.columns
-				.column.is-2
-					i.ion-wineglass
-				.column.is-10
-					p.title.has-text-weight-bold.is-size-4 Manhattan
-					p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-
-
+					.column.is-half
+						i.ion-fork.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Small Plate 1
+						p.subtitle.has-text-weight-normal.is-size-6 A signature small plate offered by Rebel Chef.
+					.column.is-half
+						i.ion-fork.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Small Plate 2
+						p.subtitle.has-text-weight-normal.is-size-6 A signature small plate offered by Rebel Chef.
+			#tab-4.tab-content
+				.columns
+					.column.is-half
+						i.ion-android-restaurant.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Entree Number One
+						p.subtitle.has-text-weight-normal.is-size-6 Description of entree number one.
+					.column.is-half
+						i.ion-android-restaurant.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Entree Number Two
+						p.subtitle.has-text-weight-normal.is-size-6 Description of entree number two.
+			#tab-5.tab-content
+				.columns
+					.column.is-half
+						i.ion-icecream.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+					.column.is-half
+						i.ion-icecream.is-size-3
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
