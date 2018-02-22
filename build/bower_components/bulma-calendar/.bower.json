@@ -2,7 +2,7 @@
   "name": "bulma-calendar",
   "description": "Display a calendar for date selection or for planning management, in different colors and sizes",
   "main": "calendar.sass",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "authors": [
     "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
   ],
@@ -21,11 +21,11 @@
     "test",
     "tests"
   ],
-  "_release": "1.0.3",
+  "_release": "1.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.3",
-    "commit": "3f5b911c49664e53827ae5bf033c3da112cb404e"
+    "tag": "1.1.1",
+    "commit": "32dba897ceaeb7167020bf67d31067e0a7c5f6cc"
   },
   "_source": "https://github.com/Wikiki/bulma-calendar.git",
   "_target": "^1.0.3",

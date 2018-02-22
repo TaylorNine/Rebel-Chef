@@ -45,12 +45,12 @@
     "url": "git://github.com/sweetalert2/sweetalert2.git"
   },
   "license": "MIT",
-  "version": "7.11.0",
-  "_release": "7.11.0",
+  "version": "7.12.3",
+  "_release": "7.12.3",
   "_resolution": {
     "type": "version",
-    "tag": "v7.11.0",
-    "commit": "a86ce575727a5199037ada0e0e3652c683411615"
+    "tag": "v7.12.3",
+    "commit": "17d09aa7a59e4aa0c7040a01acae520f4ec1080b"
   },
   "_source": "https://github.com/sweetalert2/sweetalert2.git",
   "_target": "*",

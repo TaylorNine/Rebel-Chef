@@ -1,1 +1,0 @@
-$(document).ready(function(){$.getJSON("demo_ajax.js",function(n){$.each(n,function(n,e,t,p){$("i.icon").append(e),$("p.title").append(t),$("p.subtitle").append(p)})})});
