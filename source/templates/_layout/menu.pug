@@ -1,12 +1,11 @@
 //- MENU FILE
 //- TO DO: The menu is going to be setup based on a JSON file with the dishes and their information.
-//- TO DO: IF STATEMENT: The UI is going to be a slider/paginator
+//- Created menu sections in the _components folder.
 
 block menu
-	section.is-medium.menu
+	section#s1.section.menu
 		.container
-			h3.title.has-text-weight-light.is-uppercase.has-text-centered Cocktails &amp; Beers
-			p.subtitle.is-size-6.has-text-centered We worked with the best mixologists and the best local breweries to bring you something truly unique.
+			h3 THE REBEL CHEF MENU
 			.tabs.is-centered
 				ul.menu-tabs
 					li.is-active(data-tab="tab-1")
@@ -19,64 +18,14 @@ block menu
 						a Entrees
 					li(data-tab="tab-5") 
 						a Desserts
-	.section
 		.container
-			#tab-1.tab-content.is-active
-				.columns
-					.column.is-half
-						i.ion-wineglass.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-					.column.is-half
-						i.ion-wineglass.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			#tab-2.tab-content
-				.columns
-					.column.is-half
-						i.ion-flag.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
-						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
-					.column.is-half
-						i.ion-flag.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
-						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
-				.columns
-					.column.is-half
-						i.ion-flag.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
-						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
-					.column.is-half
-						i.ion-flag.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Appetizer Number 1
-						p.subtitle.has-text-weight-normal.is-size-6 The first appetizer, I don't know maybe some wings?
-			#tab-3.tab-content
-				.columns
-					.column.is-half
-						i.ion-fork.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Small Plate 1
-						p.subtitle.has-text-weight-normal.is-size-6 A signature small plate offered by Rebel Chef.
-					.column.is-half
-						i.ion-fork.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Small Plate 2
-						p.subtitle.has-text-weight-normal.is-size-6 A signature small plate offered by Rebel Chef.
-			#tab-4.tab-content
-				.columns
-					.column.is-half
-						i.ion-android-restaurant.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Entree Number One
-						p.subtitle.has-text-weight-normal.is-size-6 Description of entree number one.
-					.column.is-half
-						i.ion-android-restaurant.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Entree Number Two
-						p.subtitle.has-text-weight-normal.is-size-6 Description of entree number two.
-			#tab-5.tab-content
-				.columns
-					.column.is-half
-						i.ion-icecream.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-					.column.is-half
-						i.ion-icecream.is-size-3
-						p.title.has-text-weight-bold.is-size-4 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+			block drinks
+			include ../_components/menu-drinks.pug
+			block appetizers
+			include ../_components/menu-appetizers.pug
+			block small-plates
+			include ../_components/menu-small-plates.pug
+			block entrees
+			include ../_components/menu-entrees.pug
+			block desserts
+			include ../_components/menu-desserts.pug

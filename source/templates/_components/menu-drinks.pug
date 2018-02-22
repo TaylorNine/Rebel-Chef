@@ -1,32 +1,35 @@
 //- menu-drinks.pug
-	div#drinks
-		.tab-content.is-active
-			.columns
-				.column.is-half
+
+block drinks
+	#tab-1.tab-content.is-active
+		h1.has-text-centered Drinks
+		.columns
+			.column.is-half
+				.columns
+					.column.is-one-fifth.icon
+						i.ion-wineglass.is-size-3.is-pulled-right
+					.column
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+			.column.is-half
+				.columns
+					.column.is-one-fifth
+						i.ion-wineglass.is-size-3.is-pulled-right
+					.column
+						p.title.has-text-weight-bold.is-size-4 Old Fashioned
+						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+		.columns
+			.column.is-half
 					.columns
 						.column.is-one-fifth
-							i.ion-wineglass
+							i.ion-wineglass.is-size-3.is-pulled-right
 						.column
 							p.title.has-text-weight-bold.is-size-4 Old Fashioned
 							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-				.column.is-half
+			.column.is-half
 					.columns
 						.column.is-one-fifth
-							i.ion-wineglass
-						.column
-							p.title.has-text-weight-bold.is-size-4 Old Fashioned
-							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-				.column.is-half
-					.columns
-						.column.is-one-fifth
-							i.ion-wineglass
-						.column
-							p.title.has-text-weight-bold.is-size-4 Old Fashioned
-							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-				.column.is-half
-					.columns
-						.column.is-one-fifth
-							i.ion-wineglass
+							i.ion-wineglass.is-size-3.is-pulled-right
 						.column
 							p.title.has-text-weight-bold.is-size-4 Old Fashioned
 							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.

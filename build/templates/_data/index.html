@@ -1,108 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Menu Test</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,900" rel="stylesheet">
-  <style>
-    html{font-size: 20px;}
-    body { 
-      background: #ECEFF1;
-      color:   #29B6F6;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1rem;
-      font-weight: 300;
-      }
-      h1,h2,h3,h4,h5,h6 {
-        font-weight: 900;
-        }
-      .d1,.d2,.d3,.d4,.d5,.d6 {
-          font-weight: 300;
-          margin: 1rem;
-        }
-      h1 {font-size: 1.5rem;}
-      h2 {font-size: 1.25rem;}
-      h3 {font-size: 1rem;}
-      h4 {font-size: 0.9rem;}
-      h5 {font-size: 0.7rem;}
-      h6 {font-size: 0.5rem;}
-      .d1 {font-size: 3rem;    line-height: 2.25rem;}
-      .d2 {font-size: 2.25rem; line-height: 2rem;}
-      .d3 {font-size: 1.75rem; line-height: 1.5rem;}
-      .d4 {font-size: 1.5rem;  line-height: 1.25rem;}
-      .d5 {font-size: 1.25rem; line-height: 1rem;}
-      .d6 {font-size: 0.95rem; line-height: 0.75rem;}
-      .a100 {color:#80D8FF;}
-      .a200 {color:#40C4FF;}
-      .a300 {color:#00B0FF;}
-      .a400 {color:#0091EA;}
-      .invert {color:#e1f5fe;}
-      p {
-        font-weight: 400;
-        font-size: 1.6rem;
-        line-height: 2.25rem;
-        }
-      .container{
-        width:100%;
-        min-height: 2rem;
-        padding: 2rem;
-      }
-    .results { 
-      width: 70%;
-      background-color: #CFD8DC;
-      border: 1px solid #B0BEC5;
-      border-radius: 3px;
-      box-shadow: 0 2px 2px 0 rgba(55, 71, 79, 0.664);
-      margin: 0 auto;
-      text-align: center;
-    }
-    .results > .head {
-      background:#29B6F6;
-      border-bottom: 10px solid #4FC3F7;
-      padding:1rem;
-    }
-    .results > .body {
-      color:#03A9F4;
-      min-height:100%;
-      background:#ECEFF1;
-      /* TOP RIGHT BOTTOM LEFT */
-      padding: 1rem 3rem 3rem 3rem;
-      text-align: left;
-    }
-    code {
-      background: #FCE4EC;
-      font-family: 'Menlo', monospace;
-      color: rgba(233, 30, 98, 0.568);
-      padding: 0.22rem;
-      border: 1px solid #f50057;
-    }
-  </style>
-  <script src="../javascripts/vendor/jquery-3.3.1.min.js"></script>
-  <script>
-    /*
-    $(document).ready(function({
-      $.ajax({
-        dataType: "json",
-        url: ./menu.json,
-        data: data,
-        success: success
-      })
-    });*/
-  </script>
+  <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="container">
+  <div class="container">
     <div class="results">
       <div class="head">
         <h1 class="d1 invert">A LITTLE JSON TEST</h1>
       </div>
-      <div class="body">
-        <p class="a300">Let's see if I can get this JSON bullshit to work. I am attempting to store objects, that I can run a <code>for loop</code> to output into my project.</p>
-        <a class="button pink">FIRE SCRIPT</a>
+      <div id="content">
+          <i class="icon"></i>
+          <p class="title"></p>
+          <p class="subtitle"></p>
       </div>
     </div>
-</div>
+  </div>
+
+<script src="../javascripts/vendor/jquery-3.3.1-min.js"></script>
+  <script>
+      $(document).ready(function(){
+            $.getJSON("demo_ajax-min.js", function(result){
+
+                $.each(result, function(i, icon, title, description){
+                    $("i.icon").append(icon),
+                    $("p.title").append(title),
+                    $("p.subtitle").append(description);
+                });
+            });
+        });
+  </script>
 </body>
+
 </html>

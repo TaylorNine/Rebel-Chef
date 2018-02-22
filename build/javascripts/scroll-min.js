@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=document.getElementById("s1"),l=document.getElementById("s2"),c=document.getElementById("s3");$("#scrollMenu").click(zenscroll.to(e,1200)),$("#scrollMission").click(zenscroll.to(l,1200)),$("#scrollMission").click(zenscroll.to(l,1200))});
