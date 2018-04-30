@@ -17,9 +17,19 @@
 </html>
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand"><a class="navbar-item" href="http://www.rebelchefmn.com"><img src="_asset/images/brand/rc-navlogo-notxt.png" alt="Rebel Chef: The Food Revolution."></a></div>
+    <div class="container">
+      <div class="navbar-brand"><a class="navbar-item" href="http://www.rebelchefmn.com"><img src="https://raw.githubusercontent.com/TaylorNine/Rebel-Chef/master/build/templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef: The Food Revolution."></a></div>
+      <div class="navbar-menu" data-target="options">
+        <div class="navbar-end">
+          <div class="navbar-item"><a class="nav-link" href="#s1">MENU</a></div>
+          <div class="navbar-item"><a class="nav-link" href="#s2">ABOUT</a></div>
+          <div class="navbar-item"><a class="nav-link" href="#s3">LOCATION</a></div>
+          <div class="navbar-item"><a class="nav-link" href="#s3">CONTACT</a></div>
+        </div>
+      </div>
+      <button class="button navbar-burger burger" id="options"><span></span><span></span><span></span></button>
+    </div>
   </nav>
-  <button class="button navbar-burger"><span></span><span></span><span></span></button>
   <!-- HERO-->
   <section class="section hero is-small">
     <div class="container">
@@ -35,7 +45,7 @@
             <button class="btn btn-purple" id="scrollMission">OUR MISSION</button>
           </div>
           <div class="column">
-            <button class="btn btn-blue is-pulled-right" id="scrollLocation">LOCATION</button>
+            <button class=" btn btn-blue is-pulled-right" id="scrollLocation">LOCATION</button>
           </div>
         </div>
       </div>

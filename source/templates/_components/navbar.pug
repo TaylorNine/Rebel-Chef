@@ -1,12 +1,27 @@
 //- navbar.pug
+//- NAVIGATION LINKS: #s1 = "#menu" ---- #s2 = "#about" ----  #s3="#contact"
 
 block navigation
-	nav(class="navbar" role="navigation" aria-label="main navigation")
-		.navbar-brand
-			a(class="navbar-item" href="http://www.rebelchefmn.com")
-				img(src="_asset/images/brand/rc-navlogo-notxt.png" alt="Rebel Chef: The Food Revolution.")
+	div#full-nav-overlay.overlay
+		.container
+			.overlay-header
+				a(href="javascript:void(0)" class="closebtn pull-right" onclick="closeNav()")
+					span.ion-close
+			.overlay-body
+				h1.overlay-link  a(href="#menu" id="#s1") MENU
+				h1.overlay-link  a(href="#about" id="#s2") ABOUT
+				h1.overlay-link  a(href="#contact" id="#s3") CONTACT
+				br
+				form(
+				input(type="email"
 
-	button.button.navbar-burger
-		span
-		span
-		span
+
+	nav(class="navbar" role="navigation" aria-label="main navigation")
+		.container
+			.navbar-brand
+				a(class="navbar-item" href="http://www.rebelchefmn.com")
+					img(src="https://raw.githubusercontent.com/TaylorNine/Rebel-Chef/master/build/templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef: The Food Revolution.")
+			button#options.button.navbar-burger.burger
+						span
+						span
+						span
