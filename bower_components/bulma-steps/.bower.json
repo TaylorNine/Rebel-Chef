@@ -2,7 +2,7 @@
   "name": "bulma-steps",
   "description": "Display steps for a process (like sign-up, or order, form), in different colors, sizes, and states",
   "main": "steps.sass",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
   ],
@@ -23,11 +23,11 @@
     "test",
     "tests"
   ],
-  "_release": "1.0.1",
+  "_release": "1.0.2",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.1",
-    "commit": "2c6c6ffe91fcb7f72faa7011f52ed6978f7fc1de"
+    "tag": "1.0.2",
+    "commit": "e2836902e83511a5e81ee98eeb1cd1e0edc38cab"
   },
   "_source": "https://github.com/Wikiki/bulma-steps.git",
   "_target": "^1.0.1",

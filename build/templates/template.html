@@ -13,63 +13,63 @@
   <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" href="../stylesheets/vendor/hover/hover.css">
   <link rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../bower_components/bulma/bulma.min.css">
   <link rel="stylesheet" href="../stylesheets/main.css">
 </html>
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="overlay" id="full-nav-overlay">
     <div class="container">
-      <div class="navbar-brand"><a class="navbar-item" href="http://www.rebelchefmn.com"><img src="https://raw.githubusercontent.com/TaylorNine/Rebel-Chef/master/build/templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef: The Food Revolution."></a></div>
-      <div class="navbar-menu" data-target="options">
-        <div class="navbar-end">
-          <div class="navbar-item"><a class="nav-link" href="#s1">MENU</a></div>
-          <div class="navbar-item"><a class="nav-link" href="#s2">ABOUT</a></div>
-          <div class="navbar-item"><a class="nav-link" href="#s3">LOCATION</a></div>
-          <div class="navbar-item"><a class="nav-link" href="#s3">CONTACT</a></div>
+      <div class="columns">
+        <div class="columns">
+          <div class="overlay-header"><a class="closebtn pull-right" href="javascript:void(0)" onclick="closeNav()"></a><span class="ion-close"></span></div>
         </div>
       </div>
-      <button class="button navbar-burger burger" id="options"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
-  <div class="section is-medium main">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-6">
-          <h1 class="title has-text-centered">Rebel Chef: Web Styles</h1>
-          <h3 class="subtitle has-text-centered">Going over the web styles and colors for the Rebel Chef page.</h3>
-          <p>This is the testing ground for some of the styles I'm working on with <a href="http://www.bulma.io" alt="Bulma Homepage">Bulma.io</a>, so far it seems I like it better than Bootstrap 3 and 4. Here are some of the styles I've been working on. </p>
-          <p>One of the first things I should note though, is the font choice. I'm using <em>Franklin Gothic URW</em> and <em>Franklin Gothic URW Condensed</em> via Adobe's Typekit. However, the body font (indeed this font) is called "Maven Pro" from GoogleFonts. I gotta say it's pretty bitchin'. 
-            <div class="columns">
-              <div class="column"><br><a class="button is-primary">PRIMARY</a></div>
-              <div class="column"><br><a class="button bg-b3 txt-g6">BADASS</a></div>
-              <div class="column"><br><a class="button bg-p3 txt-p5">PURPLE</a></div>
-              <div class="column"><br><a class="button bg-g3 txt-g1">DRANK</a></div>
-            </div>
-          </p>
+      <div class="navbar-menu">
+        <div class="columns overlay-body">
+          <div class="column is-12">
+            <h2 class="overlay-link"> a(href="#menu" id="#s1") MENU</h2>
+          </div>
+          <div class="column is-12">
+            <h2 class="overlay-link"> a(href="#about" id="#s2") ABOUT</h2>
+          </div>
+          <div class="column is-12">
+            <h2 class="overlay-link"> a(href="#contact" id="#s3") CONTACT</h2>
+          </div>
+          <div class="column is-12">
+            <form></form>
+            <input type="email">
+          </div>
         </div>
       </div>
     </div>
   </div>
-</body>
-<footer>
-  <section class="section is-small">
-    <div class="columns">
-      <div class="column">
-        <p class="title has-text-centered is-size-6">Rebel Photo Feed</p><br><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/10`0x100">
-      </div>
-      <div class="column is-center-column">
-        <p class="title has-text-centered is-size-6">Join the Revolution</p><br>
-        <form action="#" method="POST">
-          <input name="email" placeholder="email@youremail.com" type="email" width="150">
-          <input class="button" type="submit" value="Subscribe">
-        </form>
-      </div>
-      <div class="column">
-        <p class="title has-text-centered is-size-6">Connect &amp; Share</p><br>
-        <p>THIS IS WHERE I INTEND TO PLACE THE TWITTER API FEED</p>
-      </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand"><a class="navbar-item" href="http://www.rebelchefmn.com"><img src="../_asset/images/brand/rc-navlogo.svg" alt="Rebel Chef: The Food Revolution."></a></div>
+      <div class="navbar-burger burger" data-target="full-nav-overlay"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
     </div>
-  </section>
-</footer>
-<script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
-<script type="text/javascript" src="../javascripts/scroll-min.js"></script>
-<script type="text/javascript" src="../javascripts/tabs-min.js"></script>
+  </nav>
+  <footer>
+    <section class="section is-small">
+      <div class="columns">
+        <div class="column">
+          <p class="title has-text-centered is-size-6">Rebel Photo Feed</p><br><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/10`0x100">
+        </div>
+        <div class="column is-center-column">
+          <p class="title has-text-centered is-size-6">Join the Revolution</p><br>
+          <form action="#" method="POST">
+            <input name="email" placeholder="email@youremail.com" type="email" width="150">
+            <input class="button" type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="column">
+          <p class="title has-text-centered is-size-6">Connect &amp; Share</p><br>
+          <p>THIS IS WHERE I INTEND TO PLACE THE TWITTER API FEED</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/scroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
+</body>

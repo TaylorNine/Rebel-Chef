@@ -1,6 +1,11 @@
 //- MENU FILE
 //- TO DO: The menu is going to be setup based on a JSON file with the dishes and their information.
 //- Created menu sections in the _components folder.
+//- Menu has five sections: STARTERS, ENTREES, BURGERS & SANDWICHES, DESSERTS and COCKTAILS
+//- STARTERS includes: Salads, Tapas, Shared Plates
+//- ENTREES includes: Entrees, Shared Sides
+//- BURGERS & SANDWICHES
+//- DESSERTS
 
 block menu
 	section#s1.section.menu
@@ -8,24 +13,22 @@ block menu
 			h3 THE REBEL CHEF MENU
 			.tabs.is-centered
 				ul.menu-tabs
-					li.is-active(data-tab="tab-1")
-						a Drinks
-					li(data-tab="tab-2") 
-						a Appetizers
-					li(data-tab="tab-3") 
-						a Small Plates
-					li(data-tab="tab-4") 
+					li(class="is-active" data-tab="tab-1")
+						a Starters
+					li(data-tab="tab-2")
 						a Entrees
-					li(data-tab="tab-5") 
+					li(data-tab="tab-3")
+						a Burgers &amp; Sandwiches
+					li(data-tab="tab-4")
 						a Desserts
+					li(data-tab="tab-5")
+						a Cocktails
 		.container
-			block drinks
-			include ../_components/menu-drinks.pug
-			block appetizers
-			include ../_components/menu-appetizers.pug
-			block small-plates
-			include ../_components/menu-small-plates.pug
+			block starters
+			include ../_components/menu-starters.pug
 			block entrees
 			include ../_components/menu-entrees.pug
+			block burgers-sandwiches
+			include ../_components/menu-burgers-sandwiches.pug
 			block desserts
 			include ../_components/menu-desserts.pug

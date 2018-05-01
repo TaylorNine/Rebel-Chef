@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../bower_components/sweetalert2/src/variables.scss"
+    ],
+    "names": [],
+    "file": "variables.css"
+}

@@ -42,6 +42,7 @@
     "bulma-divider": "^1.0.1",
     "bulma-carousel": "^1.0.4",
     "bulma-checkradio": "^1.0.1",
-    "page": "page.js#^1.8.3"
+    "page": "page.js#^1.8.3",
+    "jade": "^1.11.0"
   }
 }
