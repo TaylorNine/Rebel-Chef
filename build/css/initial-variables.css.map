@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../source/stylesheets/vendor/bulma/utilities/initial-variables.scss"
-    ],
-    "names": [],
-    "file": "initial-variables.css"
-}

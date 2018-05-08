@@ -2,32 +2,16 @@
 //- NAVIGATION LINKS: #s1 = "#menu" ---- #s2 = "#about" ----  #s3="#contact"
 
 block navigation
-	#full-nav-overlay.overlay
-		.container
-			.columns
-				.columns
-					.overlay-header
-						a(href="javascript:void(0)" class="closebtn pull-right" onclick="closeNav()")
-						span.ion-close
-			.navbar-menu
-				.columns.overlay-body
-					.column.is-12
-						h2.overlay-link  a(href="#menu" id="#s1") MENU
-					.column.is-12
-						h2.overlay-link  a(href="#about" id="#s2") ABOUT
-					.column.is-12
-						h2.overlay-link  a(href="#contact" id="#s3") CONTACT
-					.column.is-12
-						form
-						input(type="email")
-
-
 	nav(class="navbar" role="navigation" aria-label="main navigation")
-		.container
-			.navbar-brand
-				a(class="navbar-item" href="http://www.rebelchefmn.com")
-					img(src="../_asset/images/brand/rc-navlogo.svg" alt="Rebel Chef: The Food Revolution.")
-			.navbar-burger.burger(data-target="full-nav-overlay")
-				span(aria-hidden="true")
-				span(aria-hidden="true")
-				span(aria-hidden="true")
+		.navbar-brand
+			img(src="/Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/build/templates/_asset/images/brand/rc-navlogo-txtonly.png")
+			a(role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false")
+				i.ion-drag.is-size-3.pull-right
+		.navbar-menu
+			.columns
+				.column
+					a(href="#menu" id="#s1") MENU
+				.column
+					a(href="#about" id="#s2") ABOUT
+				.column
+						a(href="#contact" id="#s3") CONTACT

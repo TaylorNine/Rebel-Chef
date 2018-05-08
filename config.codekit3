@@ -7870,6 +7870,34 @@
 		"oS": 3,
 		"uL": 0
 		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/480ba89d7f56538b8d411ef984dbae07d98a1941\/rc-custom.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/480ba89d7f56538b8d411ef984dbae07d98a1941\/rc-custom.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/derived-variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/derived-variables.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/initial-variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/initial-variables.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/mixins.scssc",
+		"oF": 0
+		},
 	"\/source\/stylesheets\/vendor\/bulma\/base\/_all.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -8377,19 +8405,6 @@
 		"oS": 3,
 		"uL": 0
 		},
-	"\/source\/stylesheets\/vendor\/bulma\/layout\/hero1.sass": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 1,
-		"ft": 2,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/build\/stylesheets\/vendor\/bulma\/layout\/hero1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 0
-		},
 	"\/source\/stylesheets\/vendor\/bulma\/layout\/section.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -8410,7 +8425,7 @@
 		"dS": 1,
 		"ft": 4,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/stylesheets\/vendor\/bulma\/rc-custom.css",
 		"oF": 0,
 		"oS": 3,
@@ -10586,12 +10601,30 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/templates\/_components\/footer-main.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/templates\/_components\/footer-main.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/templates\/_components\/footer-social.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/build\/templates\/_components\/footer-social.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/templates\/_components\/footer.1.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/templates\/_components\/footer.1.html",
 		"oF": 0,
 		"oS": 0
 		},

@@ -13,62 +13,27 @@
   <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" href="../stylesheets/vendor/hover/hover.css">
   <link rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css">
-  <link rel="stylesheet" href="../bower_components/bulma/bulma.min.css">
   <link rel="stylesheet" href="../stylesheets/main.css">
 </html>
 <body>
-  <div class="overlay" id="full-nav-overlay">
-    <div class="container">
-      <div class="columns">
-        <div class="columns">
-          <div class="overlay-header"><a class="closebtn pull-right" href="javascript:void(0)" onclick="closeNav()"></a><span class="ion-close"></span></div>
-        </div>
-      </div>
-      <div class="navbar-menu">
-        <div class="columns overlay-body">
-          <div class="column is-12">
-            <h2 class="overlay-link"> a(href="#menu" id="#s1") MENU</h2>
-          </div>
-          <div class="column is-12">
-            <h2 class="overlay-link"> a(href="#about" id="#s2") ABOUT</h2>
-          </div>
-          <div class="column is-12">
-            <h2 class="overlay-link"> a(href="#contact" id="#s3") CONTACT</h2>
-          </div>
-          <div class="column is-12">
-            <form></form>
-            <input type="email">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="container">
-      <div class="navbar-brand"><a class="navbar-item" href="http://www.rebelchefmn.com"><img src="../_asset/images/brand/rc-navlogo.svg" alt="Rebel Chef: The Food Revolution."></a></div>
-      <div class="navbar-burger burger" data-target="full-nav-overlay"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
+    <div class="navbar-brand"><img src="/Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/build/templates/_asset/images/brand/rc-navlogo-txtonly.png"><a class="navbar-burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false"><i class="ion-drag is-size-3 pull-right"></i></a></div>
+    <div class="navbar-menu">
+      <div class="columns">
+        <div class="column"><a href="#menu" id="#s1">MENU</a></div>
+        <div class="column"><a href="#about" id="#s2">ABOUT</a></div>
+        <div class="column"><a href="#contact" id="#s3">CONTACT</a></div>
+      </div>
     </div>
   </nav>
-  <footer>
+  <div class="footer bg-g5">
     <section class="section is-small">
       <div class="columns">
-        <div class="column">
-          <p class="title has-text-centered is-size-6">Rebel Photo Feed</p><br><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/100x100"><img src="http://via.placeholder.com/10`0x100">
-        </div>
-        <div class="column is-center-column">
-          <p class="title has-text-centered is-size-6">Join the Revolution</p><br>
-          <form action="#" method="POST">
-            <input name="email" placeholder="email@youremail.com" type="email" width="150">
-            <input class="button" type="submit" value="Subscribe">
-          </form>
-        </div>
-        <div class="column">
-          <p class="title has-text-centered is-size-6">Connect &amp; Share</p><br>
-          <p>THIS IS WHERE I INTEND TO PLACE THE TWITTER API FEED</p>
-        </div>
+        <div class="column"></div>
+        <p class="has-text-centered txt-g1">Copyright 2018 Rebel Chef LLC</p>
       </div>
     </section>
-  </footer>
+  </div>
   <script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
   <script type="text/javascript" src="../javascripts/scroll-min.js"></script>
   <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
