@@ -17,23 +17,24 @@
 </html>
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand"><img src="/Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/build/templates/_asset/images/brand/rc-navlogo-txtonly.png"><a class="navbar-burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false"><i class="ion-drag is-size-3 pull-right"></i></a></div>
-    <div class="navbar-menu">
-      <div class="columns">
-        <div class="column"><a href="#menu" id="#s1">MENU</a></div>
-        <div class="column"><a href="#about" id="#s2">ABOUT</a></div>
-        <div class="column"><a href="#contact" id="#s3">CONTACT</a></div>
-      </div>
+    <div class="navbar-brand">
+      <div class="navbar-start"><a class="navbar-item"><img class="nav-logo" src="../templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef"></a></div>
+      <div class="navbar-end"></div><a class="navbar-burger burger" role="button" data-target="navMenu"><i class="ion-drag"></i></a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-start"><a class="navbar-item" href="#menu" id="#top">HOME</a><a class="navbar-item" href="#menu" id="#s1">MENU</a><a class="navbar-item" href="#about" id="#s2">ABOUT</a><a class="navbar-item" href="#contact" id="#s3">CONTACT</a></div>
+      <div class="navbar-end"></div>
     </div>
   </nav>
-  <div class="footer bg-g5">
-    <section class="section is-small">
+  <footer>
+    <section class="section">
       <div class="columns">
-        <div class="column"></div>
-        <p class="has-text-centered txt-g1">Copyright 2018 Rebel Chef LLC</p>
+        <div class="column has-text-centered">
+          <p class="txt-g1">Copyright 2018 Rebel Chef LLC</p>
+        </div>
       </div>
     </section>
-  </div>
+  </footer>
   <script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
   <script type="text/javascript" src="../javascripts/scroll-min.js"></script>
   <script type="text/javascript" src="../javascripts/tabs-min.js"></script>

@@ -4,14 +4,16 @@
 block navigation
 	nav(class="navbar" role="navigation" aria-label="main navigation")
 		.navbar-brand
-			img(src="/Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/build/templates/_asset/images/brand/rc-navlogo-txtonly.png")
-			a(role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false")
-				i.ion-drag.is-size-3.pull-right
-		.navbar-menu
-			.columns
-				.column
-					a(href="#menu" id="#s1") MENU
-				.column
-					a(href="#about" id="#s2") ABOUT
-				.column
-						a(href="#contact" id="#s3") CONTACT
+			.navbar-start
+				a.navbar-item
+					img(class="nav-logo" src="../templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef")
+			.navbar-end
+			a(role="button" class="navbar-burger burger" data-target="navMenu")
+				i.ion-drag
+		div(class="navbar-menu" id="navMenu")
+			.navbar-start
+				a(class="navbar-item" href="#menu" id="#top") HOME
+				a(class="navbar-item" href="#menu" id="#s1") MENU
+				a(class="navbar-item" href="#about" id="#s2") ABOUT
+				a(class="navbar-item" href="#contact" id="#s3") CONTACT
+			.navbar-end

@@ -7551,6 +7551,16 @@
 		"oAP": "\/build\/fonts\/ionicons.woff",
 		"oF": 0
 		},
+	"\/source\/javascripts\/menu.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/javascripts\/menu-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/source\/javascripts\/scroll.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7877,11 +7887,39 @@
 		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/480ba89d7f56538b8d411ef984dbae07d98a1941\/rc-custom.scssc",
 		"oF": 0
 		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/_all.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/_all.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/animations.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/animations.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/controls.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/controls.scssc",
+		"oF": 0
+		},
 	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/derived-variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/derived-variables.scssc",
+		"oF": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/functions.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/functions.scssc",
 		"oF": 0
 		},
 	"\/source\/stylesheets\/vendor\/bulma\/.sass-cache\/919477a1975ebadd1ddde6588c26f09120ad30d7\/initial-variables.scssc": {
@@ -7962,6 +8000,13 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/components\/.sass-cache\/f995fa57d3d410b939c4149962da02b330276a33\/rc-navbar.sassc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/components\/.sass-cache\/f995fa57d3d410b939c4149962da02b330276a33\/rc-navbar.sassc",
+		"oF": 0
 		},
 	"\/source\/stylesheets\/vendor\/bulma\/components\/_all.scss": {
 		"aP": 1,
@@ -8117,6 +8162,19 @@
 		"oAP": "\/build\/stylesheets\/vendor\/bulma\/components\/panel.css",
 		"oF": 0,
 		"oS": 3,
+		"uL": 0
+		},
+	"\/source\/stylesheets\/vendor\/bulma\/components\/rc-navbar.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 1,
+		"ft": 2,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/build\/stylesheets\/vendor\/bulma\/components\/rc-navbar.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 0
 		},
 	"\/source\/stylesheets\/vendor\/bulma\/components\/tabs.scss": {
@@ -10758,15 +10816,6 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/templates\/_layout\/values.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/templates\/index-comingsoon.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/templates\/index-comingsoon.html",
 		"oF": 0,
 		"oS": 0
 		},
