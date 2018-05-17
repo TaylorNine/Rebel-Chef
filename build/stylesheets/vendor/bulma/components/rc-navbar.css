@@ -1,3 +1,35 @@
+/*
+Error: Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 33 of /Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/source/stylesheets/vendor/bulma/components/rc-navbar.sass
 
+28: 	text-align: center
+29: 	&.open
+30: 	.ion-drag
+31: 	display: block
+32: 	.ion-close-round
+33:       display: none
+34: 	&.close
+35:     .ion-drag
+36:       display: none
+37:      .ion-close-round
+38:       display: block
 
-/*# sourceMappingURL=rc-navbar.css.map */
+Backtrace:
+/Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/source/stylesheets/vendor/bulma/components/rc-navbar.sass:33
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:494:in `block in tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:452:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:452:in `each_with_index'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:452:in `tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:417:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 33 of /Users/taylorfedt/Documents/LocalServer/RebelChef/rebel-chef-static-v2/source/stylesheets/vendor/bulma/components/rc-navbar.sass\A \A 28: 	text-align: center\A 29: 	&.open\A 30: 	.ion-drag\A 31: 	display: block\A 32: 	.ion-close-round\A 33:       display: none\A 34: 	&.close\A 35:     .ion-drag\A 36:       display: none\A 37:      .ion-close-round\A 38:       display: block"; }
