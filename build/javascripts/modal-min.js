@@ -1,0 +1,1 @@
+$(".modal-open").click(function(){$(this).toggleClass("is-active")}),$(".modal-close").click(function(){$(this).toggleClass("is-active")});
