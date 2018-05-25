@@ -10761,11 +10761,36 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/source\/templates\/_components\/social-icons.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/templates\/_components\/social-icons.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/templates\/_data\/ajax-start.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/templates\/_data\/ajax-start.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/templates\/_data\/Archive.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/templates\/_data\/Archive.zip",
+		"oF": 0
+		},
+	"\/source\/templates\/_data\/campaign-email.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/templates\/_data\/campaign-email.txt",
 		"oF": 0
 		},
 	"\/source\/templates\/_layout\/hero.pug": {
@@ -10774,6 +10799,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/templates\/_layout\/hero.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/templates\/_layout\/layout-subscribe.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/templates\/_layout\/layout-subscribe.html",
 		"oF": 0,
 		"oS": 0
 		},

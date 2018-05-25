@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <title>ADMIN DASHBOARD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta name="description" content="The admin dashboard for the Rebel Chef marketing campaigns and other ad pushes.">
+  <script src="../javascripts/vendor/jquery-3.3.1-min.js"></script>
+  <link rel="stylesheet" href="../stylesheets/vendor/ionicons-min.css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/wtl3nvt.css">
+  <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../stylesheets/vendor/hover/hover.css">
+  <link rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../stylesheets/main.css">
+</html>
+<body>
+  <div class="columns">
+    <div class="column bg-color-r1">
+      <h1 class="tx-color-g6 has-text-centered">REBEL CHEF ADMIN DASHBOARD</h1>
+      <h3 class="tx-color-r2 has-text-centered">Managing Customer Retention Efforts and Current Advertising</h3>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="columns"></div>
+        <div class="notification is-info">
+          <button class="delete"></button>
+          <This>dashboard serves to look at our various efforts in data-mining, big data and custom retention efforts so we can more effectively make our ad dollars count.</This>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column"></div><b class="has-text-centered">CURRENT CAMPAIGNS</b>
+      </div>
+      <div class="columns">
+        <div class="column"></div>
+        <button class="btn btn-red" type="button" onclick="loadDoc()">EMAIL NEWSLETTER</button>
+      </div>
+    </div>
+  </section>
+  <div id="crm-info"></div>
+  <script>
+    function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+    	document.getElementById("crm-info").innerHTML =
+    	this.responseText;
+    	}
+    };
+    xhttp.open("GET", "campaign-email.txt", true);
+    xhttp.send();
+    }
+    
+    
+  </script>
+  <script type="text/javascript" src="../javascripts/vendor/zenscroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/scroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
+  <script type="text/javascript" src="../javascripts/menu.js"></script>
+  <script type="text/javascript" src="../javascripts/modal.js"></script>
+</body>
