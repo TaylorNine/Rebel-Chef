@@ -8,7 +8,8 @@
 //- DESSERTS
 
 block menu
-	section#s1.section.menu
+	div(name="menu")
+	section.section.menu
 		.container
 			h3 THE REBEL CHEF MENU
 			.tabs.is-centered
@@ -21,6 +22,8 @@ block menu
 						a Burgers &amp; Sandwiches
 					li(data-tab="tab-4")
 						a Desserts
+					li(data-tab="tab-5")
+						a Cocktails
 		.container
 			block starters
 			include ../_components/menu-starters.pug
@@ -30,3 +33,5 @@ block menu
 			include ../_components/menu-burgers-sandwiches.pug
 			block desserts
 			include ../_components/menu-desserts.pug
+			block cocktails
+			include ../_components/menu-cocktails.pug

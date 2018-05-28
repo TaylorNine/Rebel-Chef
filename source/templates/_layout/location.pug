@@ -1,21 +1,18 @@
 //- location.pug
 
 block location
-	section#s3.section.location
+	div(name="location")
+	section.section.location
 		.container
 			.columns
 				.column
 					h1.has-text-centered LOCATION &amp; CONTACT
 		.container
 			.columns
-				.column
+				.column.is-12
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.3391690131266!2d-93.13850578425546!3d44.6309844790999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f64af7b94b014d%3A0xb87aa7c23e1be194!2sRebel+Chef!5e0!3m2!1sen!2sus!4v1519242513096" frameborder="0" height="500" width="100%"  style="border:0;" allowfullscreen></iframe>
-				.column.address
-					h2 REBEL CHEF
-					h3 957 8th Street
-					h3 Farmington, MN 55024
-					br
-					p Rebel Chef is opening soon. Can't wait? Neither can we! Check out our social media pages for special deals, instant-win games and a chance to attend our exclusive soft-opening!
-					br
-					block social-icons
-					include ../_components/social-icons.pug
+				.column.is-half.is-offset-one-quarter.address
+					h1.title REBEL CHEF
+					h3.subtitle 957 8th Street
+					h3.subtitle Farmington, MN 55024
+block level-social

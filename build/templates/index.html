@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
   <meta name="description" content="Experience the food revolution at Rebel Chef in Farmington, Minnesota.">
   <script src="../javascripts/vendor/jquery-3.3.1-min.js"></script>
+  <script type="text/javascript" src="../javascripts/smoothscroll-min.js"></script>
   <script src="../bower_components/bulma-carousel/dist/bulma-carousel.min.js"></script>
   <link rel="stylesheet" href="../stylesheets/vendor/ionicons-min.css">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
@@ -15,7 +16,8 @@
   <link rel="stylesheet" href="../bower_components/bulma-carousel/dist/bulma-carousel.min.css">
   <link rel="stylesheet" href="../stylesheets/main.css">
 </html>
-<body>
+<body></body>
+<div name="top">
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-start">
       <div class="navbar-brand"><a class="navbar-item"><img class="nav-logo" src="../templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef"></a></div>
@@ -29,10 +31,12 @@
         <h2 class="bg-g6 txt-g3">THE FOOD REVOLUTION</h2>
         <h2 class="bg-g6 txt-g3">FARMINGTON, MN</h2>
       </div>
-      <div class="columns">
-        <div class="column"><a class="btn btn-red is-centered" id="scrollMenu">MENU</a></div>
-        <div class="column"><a class="btn btn-purple is-centered" id="scrollMission">OUR MISSION</a></div>
-        <div class="column"><a class=" btn btn-blue is-centered" id="scrollLocation">LOCATION</a></div>
+      <div class="hero-footer">
+        <div class="columns">
+          <div class="column"><a class="btn btn-red">MENU</a></div>
+          <div class="column"><a class="btn btn-purple">OUR MISSION</a></div>
+          <div class="column"><a class="btn btn-blue">LOCATION</a></div>
+        </div>
       </div>
     </div>
   </section>
@@ -57,23 +61,24 @@
     </div>
   </section>
   <!-- MISSION-->
-  <section class="section mission" id="s2">
-    <div class="container"></div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <h1 class="has-text-centered">WHAT DRIVES US</h1>
-        <p class="has-text-centered">Let's face it, franchise establishments tend not to be where the most unique dishes are born. We locally source our ingredients, firmly believing in the mantra <em>you get out what you put in.</em></p><br>
-        <p class="has-text-centered">We invite you to try what the Rebel Chef coined as <em>International Fast Fusion,</em> all your favorites from around the globe, fused with fresh, local and sustainable ingredients. We created something truly special for every palette in the Farmington, Minnesota area.</p><br>
+  <div name="mission"></div>
+  <section class="section mission">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <h1 class="has-text-centered">WHAT DRIVES US</h1>
+          <p class="has-text-centered">Let's face it, franchise establishments tend not to be where the most unique dishes are born. We locally source our ingredients, firmly believing in the mantra <em>you get out what you put in.</em></p><br>
+          <p class="has-text-centered">We invite you to try what the Rebel Chef coined as <em>International Fast Fusion,</em> all your favorites from around the globe, fused with fresh, local and sustainable ingredients. We created something truly special for every palette in the Farmington, Minnesota area.</p><br>
+        </div>
       </div>
     </div>
     <div class="columns is-centered">
-      <div class="column is-3">
-        <button class="btn btn-red">OUR LOCATION</button>
-      </div>
+      <div class="column is-3"><a class="btn btn-red" href="#location">OUR LOCATION</a></div>
     </div>
   </section>
   <!-- MENU-->
-  <section class="section menu" id="s1">
+  <div name="menu"></div>
+  <section class="section menu">
     <div class="container">
       <h3>THE REBEL CHEF MENU</h3>
       <div class="tabs is-centered">
@@ -82,6 +87,7 @@
           <li data-tab="tab-2"><a>Entrees</a></li>
           <li data-tab="tab-3"><a>Burgers &amp; Sandwiches</a></li>
           <li data-tab="tab-4"><a>Desserts</a></li>
+          <li data-tab="tab-5"><a>Cocktails</a></li>
         </ul>
       </div>
     </div>
@@ -162,7 +168,42 @@
               </div>
             </div>
           </div>
-          <div class="column is-half"></div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <h2>SALADS</h2>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Shaved Papaya Salad</p>
+                <p class="subtitle has-text-weight-normal is-size-6">Roasted chicken, green papaya, cucumber, peppadew pepper, pickled daikon/carrot, 5 spice pecans, fried shallots, ginger honey vinaigrette.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Caesar Salad</p>
+                <p class="subtitle has-text-weight-normal is-size-6">Fried shrimp (add $2) or roasted chicken, avocado, heirloom tomato, crispy parmesan chips, Caesar dressing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">House Salad</p>
+                <p class="subtitle has-text-weight-normal is-size-6">Mixed greens, tomato, cucumber, Vidalia onion. Ranch, blue cheese, ginger honey vinaigrette.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="tab-content" id="tab-2">
@@ -239,44 +280,24 @@
           </div>
         </div>
         <div class="columns">
-          <div class="column is-half">
-            <div class="columns">
-              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
-              <div class="column">
-                <p class="title has-text-weight-bold is-size-5">Old Fashioned</p>
-                <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="columns">
-              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
-              <div class="column">
-                <p class="title has-text-weight-bold is-size-5">Old Fashioned</p>
-                <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="columns">
-          <div class="column is-half">
-            <div class="columns">
-              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
-              <div class="column">
-                <p class="title has-text-weight-bold is-size-5">Old Fashioned</p>
-                <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="columns">
-              <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
-              <div class="column">
-                <p class="title has-text-weight-bold is-size-5">Old Fashioned</p>
-                <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
-              </div>
-            </div>
-          </div>
+                <div class="column is-half">
+                  <div class="columns">
+                    <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
+                    <div class="column">
+                      <p class="title has-text-weight-bold is-size-5">Rebel Burger</p>
+                      <p class="subtitle has-text-weight-normal is-size-6">House ground shortrib/chuck, gruyere cheese, fried green tomato, house pickles, fried shallots, butter lettuce, croissant bun.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-half">
+                  <div class="columns">
+                    <div class="column is-one-fifth"><i class="ion-android-restaurant is-size-5 is-pulled-right"></i></div>
+                    <div class="column">
+                      <p class="title has-text-weight-bold is-size-5">Revolution Burger</p>
+                      <p class="subtitle has-text-weight-normal is-size-6">House ground Sichuan pork, garlic mayo, ginger, ketchup, papaya salad, house pickles, brioche bun.</p>
+                    </div>
+                  </div>
+                </div>
         </div>
       </div>
       <div class="tab-content" id="tab-4">
@@ -290,7 +311,7 @@
             <div class="columns">
               <div class="column is-one-fifth"><i class="ion-icecream is-size-5 is-pulled-right"></i></div>
               <div class="column">
-                <p class="title has-text-weight-bold is-size-5">Old Fashioned</p>
+                <p class="title has-text-weight-bold is-size-5">Honey pistachio cheesecake.</p>
                 <p class="subtitle has-text-weight-normal is-size-6">The classic cocktail, always a good call.</p>
               </div>
             </div>
@@ -326,9 +347,97 @@
           </div>
         </div>
       </div>
+      <div class="tab-content" id="tab-5">
+        <div class="columns">
+          <div class="column">
+            <h2>COCKTAILS</h2>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Tattersall Margarita</p>
+                <p class="subtitle has-text-weight-normal is-size-6">Tattersall Orange Cream (Minneapolis, MN), Raizul tequila, fresh squeezed Persian lime juice, simple syrup.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Vike Old Fashioned</p>
+                <p class="subtitle has-text-weight-normal is-size-6">Vikre Honor Whiskey, (Duluth, MN), Riserva Carlo Alberto Rosso, Regans Orange, Filthy Cherry garnish.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Cucumber Melon Martini</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Cucumber infused Kettle One, Vermouth, fresh Melon juice.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Boiler Room Thai Mule</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Boiler Room rum (St Paul, MN), Castle Brewery Ginger Beer (Prior Lake, MN), Fresh Lime Juice, lemongrass juice, Thai basil garnish.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Key Lime Tiki</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Boiler Room Rum, Ke Ke Key Lime Liqueur, fresh squeezed lime juice, simple syrup.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Far North French 75</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Far North SYVA Vodka (Hallock, MN), sparkling Rose, Fresh Pomegranate juice, Simple syrup.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Rebel Mint Julep</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Bulleit Bourbon, Fresh Apple Juice, Green Tea, Fresh Mint.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column is-one-fifth"><i class="ion-wineglass is-size-5 is-pulled-right"></i></div>
+              <div class="column">
+                <p class="title has-text-weight-bold is-size-5">Farmington Paloma</p>
+                <p class="subtitle has-text-weight-normal is-size-6 is-capitalized">Casa Nobles Crystal Tequila, Grapefruit Soda, Fresh Lime Juice.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <section class="section location" id="s3">
+  <div name="location"></div>
+  <section class="section location">
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -338,17 +447,11 @@
     </div>
     <div class="container">
       <div class="columns">
-        <div class="column"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.3391690131266!2d-93.13850578425546!3d44.6309844790999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f64af7b94b014d%3A0xb87aa7c23e1be194!2sRebel+Chef!5e0!3m2!1sen!2sus!4v1519242513096" frameborder="0" height="500" width="100%"  style="border:0;" allowfullscreen></iframe></div>
-        <div class="column address">
-          <h2>REBEL CHEF</h2>
-          <h3>957 8th Street</h3>
-          <h3>Farmington, MN 55024</h3><br>
-          <p>Rebel Chef is opening soon. Can't wait? Neither can we! Check out our social media pages for special deals, instant-win games and a chance to attend our exclusive soft-opening!</p><br>
-          <div class="columns is-gapless is-3">
-            <div class="column txt-g6"><a class="btn" href="https://www.facebook.com/realrebelchef" target="_blank"> <i class="ion-social-facebook is-size-4"></i></a></div>
-            <div class="column txt-g6"><a class="btn" href="https://www.twitter.com/rebelchefmn" target="_blank"> <i class="ion-social-twitter is-size-4"></i></a></div>
-            <div class="column txt-g6"><a class="btn" href="https://rebelchefmn.tumblr.com" target="_blank"> <i class="ion-social-tumblr is-size-4"> </i></a></div>
-          </div>
+        <div class="column is-12"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.3391690131266!2d-93.13850578425546!3d44.6309844790999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f64af7b94b014d%3A0xb87aa7c23e1be194!2sRebel+Chef!5e0!3m2!1sen!2sus!4v1519242513096" frameborder="0" height="500" width="100%"  style="border:0;" allowfullscreen></iframe></div>
+        <div class="column is-half is-offset-one-quarter address">
+          <h1 class="title">REBEL CHEF</h1>
+          <h3 class="subtitle">957 8th Street</h3>
+          <h3 class="subtitle">Farmington, MN 55024</h3>
         </div>
       </div>
     </div>
@@ -356,12 +459,14 @@
   <footer>
     <section class="section">
       <div class="columns">
-        <div class="column has-text-centered">
+        <div class="column is-12 has-text-centered">
           <p class="txt-g1">Copyright 2018 Rebel Chef LLC</p>
+          <p>a(href="#top" class="btn-top)</p>
         </div>
       </div>
     </section>
   </footer>
-  <script type="text/javascript" src="../javascripts/menu.js"></script>
-  <script type="text/javascript" src="../javascripts/modal.js"></script>
-</body>
+  <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
+  <script type="text/javascript" src="../javascripts/menu-min.js"></script>
+  <script type="text/javascript" src="../javascripts/modal-min.js"></script>
+</div>

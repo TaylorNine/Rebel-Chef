@@ -1,4 +1,12 @@
 //- menu-entrees.pug
+mixin menu-item(title, description)
+		.column.is-half
+			.columns
+				.column.is-one-fifth
+					i.ion-android-restaurant.is-size-5.is-pulled-right
+				.column
+					p.title.has-text-weight-bold.is-size-5= title
+					p.subtitle.has-text-weight-normal.is-size-6= description
 
 block entrees
 	#tab-3.tab-content
@@ -6,32 +14,5 @@ block entrees
 			.column
 				h2 BURGERS &amp; SANDWICHES
 		.columns
-			.column.is-half
-				.columns
-					.column.is-one-fifth
-						i.ion-android-restaurant.is-size-5.is-pulled-right
-					.column
-						p.title.has-text-weight-bold.is-size-5 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			.column.is-half
-				.columns
-					.column.is-one-fifth
-						i.ion-android-restaurant.is-size-5.is-pulled-right
-					.column
-						p.title.has-text-weight-bold.is-size-5 Old Fashioned
-						p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-		.columns
-			.column.is-half
-					.columns
-						.column.is-one-fifth
-							i.ion-android-restaurant.is-size-5.is-pulled-right
-						.column
-							p.title.has-text-weight-bold.is-size-5 Old Fashioned
-							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
-			.column.is-half
-					.columns
-						.column.is-one-fifth
-							i.ion-android-restaurant.is-size-5.is-pulled-right
-						.column
-							p.title.has-text-weight-bold.is-size-5 Old Fashioned
-							p.subtitle.has-text-weight-normal.is-size-6 The classic cocktail, always a good call.
+			+menu-item('Rebel Burger', 'House ground shortrib/chuck, gruyere cheese, fried green tomato, house pickles, fried shallots, butter lettuce, croissant bun.')
+			+menu-item('Revolution Burger', 'House ground Sichuan pork, garlic mayo, ginger, ketchup, papaya salad, house pickles, brioche bun.')
