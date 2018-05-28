@@ -1,1 +1,1 @@
-$(document).ready(function(){var e=document.getElementById("s1"),l=document.getElementById("s2"),c=document.getElementById("s3");$("#scrollMenu").click(zenscroll.to(e,1200)),$("#scrollMission").click(zenscroll.to(l,1200)),$("#scrollMission").click(zenscroll.to(l,1200))});
+$(document).ready(function(){var e=document.getElementById("menu"),t=document.getElementById("mission"),n=document.getElementById("location"),o=document.getElementById("top");zenscroll.to(e),zenscroll.to(t),zenscroll.to(n),zenscroll.to(o)});

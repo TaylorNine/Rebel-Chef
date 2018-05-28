@@ -10683,17 +10683,8 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/templates\/_components\/footer-main.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/templates\/_components\/footer-social.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/templates\/_components\/footer-social.html",
+		"oAP": "\/build\/templates\/_components\/footer-main.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -10802,6 +10793,15 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/build\/templates\/_components\/social-icons.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/templates\/_components\/social.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/templates\/_components\/social.html",
 		"oF": 0,
 		"oS": 0
 		},

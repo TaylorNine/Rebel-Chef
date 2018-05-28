@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
   <meta name="description" content="Experience the food revolution at Rebel Chef in Farmington, Minnesota.">
   <script src="../javascripts/vendor/jquery-3.3.1-min.js"></script>
-  <script type="text/javascript" src="../javascripts/smoothscroll-min.js"></script>
+  <!--script(type="text/javascript" src="../javascripts/smoothscroll-min.js")-->
   <script src="../bower_components/bulma-carousel/dist/bulma-carousel.min.js"></script>
   <link rel="stylesheet" href="../stylesheets/vendor/ionicons-min.css">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
@@ -17,23 +17,25 @@
   <link rel="stylesheet" href="../stylesheets/main.css">
 </html>
 <body></body>
-<div name="top">
+<div id="top">
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-start">
       <div class="navbar-brand"><a class="navbar-item"><img class="nav-logo" src="../templates/_asset/images/brand/rc-navlogo-txtonly.png" alt="Rebel Chef"></a></div>
     </div>
   </nav>
   <footer>
-    <section class="section">
+    <div class="container">
       <div class="columns">
-        <div class="column is-12 has-text-centered">
-          <p class="txt-g1">Copyright 2018 Rebel Chef LLC</p>
-          <p>a(href="#top" class="btn-top)</p>
+        <div class="column is-half is-offset-one-quarter">
+          <p class="has-text-centered">Copyright 2018 Rebel Chef LLC</p>
+          <p class="has-text-centered is-uppercase"><a class="btn btn-red" href="#top">Back To Top</a></p>
         </div>
       </div>
-    </section>
+    </div>
   </footer>
   <script type="text/javascript" src="../javascripts/tabs-min.js"></script>
   <script type="text/javascript" src="../javascripts/menu-min.js"></script>
   <script type="text/javascript" src="../javascripts/modal-min.js"></script>
+  <script type="text/javascript" src="../javascripts/zenscroll-min.js"></script>
+  <script type="text/javascript" src="../javascripts/scroll-min.js"></script>
 </div>

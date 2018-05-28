@@ -1,7 +1,7 @@
 //- location.pug
 
 block location
-	div(name="location")
+	div(id="location")
 	section.section.location
 		.container
 			.columns
@@ -9,10 +9,13 @@ block location
 					h1.has-text-centered LOCATION &amp; CONTACT
 		.container
 			.columns
-				.column.is-12
+				.column.is-half
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.3391690131266!2d-93.13850578425546!3d44.6309844790999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f64af7b94b014d%3A0xb87aa7c23e1be194!2sRebel+Chef!5e0!3m2!1sen!2sus!4v1519242513096" frameborder="0" height="500" width="100%"  style="border:0;" allowfullscreen></iframe>
-				.column.is-half.is-offset-one-quarter.address
-					h1.title REBEL CHEF
-					h3.subtitle 957 8th Street
-					h3.subtitle Farmington, MN 55024
-block level-social
+				.column
+					h1.is-size-4 REBEL CHEF
+					h3.is-size-6 957 8th Street
+					h3.is-size-6 Farmington, MN 55024
+					br
+					h3.is-size-6.has-text-weight-bold HOURS
+					h3.is-size-6 As we get closer to opening night we'll have hours posted for you to check out.
+					h3.is-size-6 In the meantime, <a href="http://www.facebook.com/realrebelchef" target="_blank">follow us on Facebook,</a> <a href="https://rebelchefmn.tumblr.com/" target="_blank">keep up with us on Twitter,</a> <a href="https://twitter.com/RebelChefMN" target="_blank">and check our Tumblr blog for updates.</a>
